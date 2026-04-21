@@ -29,13 +29,12 @@ Models the Cornell experiment where a biohybrid robot's movement is driven by fu
 | Key | Action |
 |-----|--------|
 | `1` | Natural Mode — robot moves from raw, noisy mycelia signals |
-| `2` | UV Mode — UV light biases the signal in one direction |
+| `2` | UV Mode — toggle UV stimulation |
 | `3` | Override Mode — you directly control the signal with arrow keys |
-| `U` | Toggle UV stimulation (Mode 2 only) |
-| `←` / `→` | Steer robot (Mode 3 only) |
+| `W A S D` / `← ↑ ↓ →` | influence (Mode 2) or control (Mode 3) movement |
 | `ESC` | Return to menu |
 
-**Goal:** Navigate the robot (green square) to the red target under each mode.
+**Goal:** Navigate the mushroom robot to the target under each mode.
 
 ---
 
